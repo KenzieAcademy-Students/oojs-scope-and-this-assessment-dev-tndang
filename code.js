@@ -6,6 +6,11 @@ const Knight = function() {
     alert(`You Healed!  Your health is now ${this.health}`);
   }.bind(this);
 
+  this.highHeal = function () {
+    this.health += 10;
+    alert(`You Healed!  Your health is now ${this.health}`);
+  }.bind(this);
+
   // You must keep this function working.
   this.getHealth = () => {
     return this.health;
