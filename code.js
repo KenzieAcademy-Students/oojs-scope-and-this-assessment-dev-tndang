@@ -10,6 +10,9 @@ const Knight = function() {
   this.getHealth = () => {
     return this.health;
   };
+  this.lightAttack = function () {
+    monster.slash();
+  }
 }
 
 /**
